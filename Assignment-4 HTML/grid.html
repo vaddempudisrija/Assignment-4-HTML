@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-Grid</title>
+    <style>
+        .items{
+            height: 500px;
+            width: 500px;
+           position: relative;
+            border: 2px solid red;
+            top: 50px;
+            left: 50px;
+            
+
+        }
+
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid green;
+            right: 1px;
+        }
+
+        .item1{
+           background-color: blueviolet;
+           position: absolute;
+           width: 500px;
+           text-align: center;
+           font-size: larger;
+           padding-top: 40px;
+           color: white;
+            
+            
+        }
+
+        .item2{
+            background-color: green;
+           position: absolute;
+           width: 500px;
+           height: 50px;
+           top: 100px;
+           display: inline;
+           padding-top: 5px;
+           
+           
+        }
+
+        .item2 ul{
+            list-style-type: none;
+        }
+
+        .item2 ul li{
+            display: inline-block;
+            padding-left: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover{
+            background-color: lightgreen;
+            color: black;
+        }
+        .item3{
+            background-color: yellow;
+           position: absolute;
+           width: 400px;
+           height: 400px;
+           top: 150px;
+           right: 100px;
+
+        }
+
+        .item4{
+            background-color: grey;
+            position: absolute;
+            width: 100px;
+            height: 400px;
+            top: 150px;
+            color: azure;
+           
+        }
+
+        .item5{
+            background-color: red;
+            position: absolute;
+            width: 500px;
+            height: 50px;
+            top: 550px;
+            text-align: right;
+            color: azure;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="items">
+        <div class="box item1">John's Animal World</div>
+        <div class="box item2">
+                <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Animals</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About Us</a></li>
+                </ul>
+
+
+
+        </div>
+        <div class="box item3">
+            <h4>What is Lorem Ipsum?</h4>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <div class="box item4">
+            <ul>
+                <li>Home</li>
+                <li>Animals</li>
+                <li>Contact</li>
+                <li>About Us</li>
+        </ul>
+
+        </div>
+        <div class="box item5"><p>john@animalsworld.com</p></div>
+
+    </div>
+
+</body>
+</html>
